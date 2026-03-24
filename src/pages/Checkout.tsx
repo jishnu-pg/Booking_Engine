@@ -100,7 +100,7 @@ export function CheckoutPage() {
   const validateForm = () => {
     let isValid = true;
     const newErrors = { 
-      fullName: "", phone: ""
+      fullName: "", phone: "", email: ""
     };
 
     if (!formData.fullName.trim()) {
